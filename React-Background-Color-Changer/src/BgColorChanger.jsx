@@ -5,7 +5,7 @@ import ColorButton from './Components/ColorButton';
 
 function BgColorChanger() {
 
-  const [bgColor, setbgColor] = useState("Grey");
+  const [bgColor, setbgColor] = useState("White");
 
   const changeColor = () => {
      const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
