@@ -9,7 +9,7 @@ function ToggleText({isVisible}) {
        {isVisible && ( 
 
         <Paragraph style={{marginTop: 16, fontSize: '18px'}}>
-                    👋 Hello Jani! Ye text toggle ho raha hai.
+                    👋 Hello! I am Akbar Raza & I am Frontend Developer.
         </Paragraph>
        )}
     </>
